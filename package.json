@@ -6,10 +6,15 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "format": "prettier .  --write"
+    "format": "prettier .  --write",
+    "test": "cypress run",
+    "test:open": "cypress open"
   },
   "dependencies": {
+    "@cypress/vue": "^2.2.3",
+    "@cypress/webpack-dev-server": "^1.6.0",
     "core-js": "^3.6.5",
+    "cypress": "^8.5.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
