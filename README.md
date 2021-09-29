@@ -1,6 +1,11 @@
 # create-bot
 
 ## Project setup
+clone the repo 
+
+```
+git clone https://github.com/mayuripansuriya/create-bot.git
+```
 
 ```
 npm install
@@ -23,7 +28,30 @@ npm run build
 ```
 npm run lint
 ```
+### Format and fixes files
 
-### Customize configuration
+```
+npm run format
+```
+### Run unit tests
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+npm run test:unit
+```
+### Run e2e tests headless
+
+```
+npm run test
+```
+### Run e2e tests
+
+```
+npm run test:open
+```
+
+### You can also run the build that is generated 
+
+```
+node server.js 
+```
+Using the above command you can launch your build on  `http://localhost:4000/`
