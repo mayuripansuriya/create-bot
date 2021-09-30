@@ -30,6 +30,7 @@ npm run lint
 ```
 ### Format and fixes files
 
+`once you run the application you will see the url and add it to cypress.json => baseUrl`
 ```
 npm run format
 ```
